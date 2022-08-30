@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "appTestNodeJs"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-e6903bd5tidp"
+s3_prefix = "appTestNodeJs"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+confirm_changeset = true
